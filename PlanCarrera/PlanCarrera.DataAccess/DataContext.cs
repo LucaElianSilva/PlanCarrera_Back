@@ -19,14 +19,17 @@ namespace PlanCarrera.DataAccess
         public DataContext(IDatabase db)
         {
             _db = db;
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
             CrearPersonas();
+            // Configura las entidades
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        { 
-        }
-
-        public void CrearPersonas() {
+        public void CrearPersonas() 
+        {
             var personas = new List<Persona>()
             {
                 new Persona(){ Id = 1, Nombre = "Jhon", Edad = 22, DNI = "42901989", Sexo = "Masculino" },

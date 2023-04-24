@@ -17,23 +17,18 @@ namespace PlanCarrera.WebApi
         // Este metodo es llamado al correr el proyecto. Se utiliza para añadir servicios, controladores, contextos, etc.
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
-            //Obtiene la sección redis del appsettings
-            var redisConfig = Configuration.GetSection("Redis");
-
-            //Obtiene el connectionString
-            var connectionString = redisConfig.GetConnectionString("DataContext");
+            //Obtiene de la sección redis del appsettings el connectionString
+            var connectionString = Configuration.GetSection("Redis:DataContext").Get<string>();
 
             // Se conecta al servidor de Redis generado
             var redis = ConnectionMultiplexer.Connect(connectionString);
 
-            // Crear una base de datos
-            var database = redis.GetDatabase();
-
-            // Añade el datacontext desde el startup
-            services.AddScoped<DataContext>(sp => new DataContext(database));
-
             // Registra la base de datos en el contenedor de servicios
-            services.AddSingleton(database);
+            services.AddSingleton<IConnectionMultiplexer>(redis);
+
+            //Crea una base de datos en redis y Añade el datacontext desde el startup
+            services.AddScoped(sp => new DataContext(redis.GetDatabase()));
+
 
             // Añade los servicios y controladores al contenedor de servicios.
             services.AddControllers();
@@ -63,11 +58,11 @@ namespace PlanCarrera.WebApi
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapControllers();
 
-            });
+            //});
         }
     }
 }
