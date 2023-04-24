@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "63b2978c-c9a1-4530-8e5a-fc039da8ed15": {
+      "ProjectGuid": "63b2978c-c9a1-4530-8e5a-fc039da8ed15",
+      "DisplayName": "PlanCarrera.WebApi",
+      "ColorIndex": 0
+    },
+    "69df6fbe-c38e-4f6a-8544-0719355ec081": {
+      "ProjectGuid": "69df6fbe-c38e-4f6a-8544-0719355ec081",
+      "DisplayName": "PlanCarrera.DataAccess",
+      "ColorIndex": 1
+    },
+    "4f5bcc77-d828-4121-9a83-a4cb73c3c304": {
+      "ProjectGuid": "4f5bcc77-d828-4121-9a83-a4cb73c3c304",
+      "DisplayName": "PlanCarrera.Business",
+      "ColorIndex": 2
+    },
+    "4fb316d8-354b-43de-a65c-01872180a312": {
+      "ProjectGuid": "4fb316d8-354b-43de-a65c-01872180a312",
+      "DisplayName": "PlanCarrera.Domain",
+      "ColorIndex": 3
+    },
+    "41dcaed5-7b98-437c-9fe2-b4902afb090f": {
+      "ProjectGuid": "41dcaed5-7b98-437c-9fe2-b4902afb090f",
+      "DisplayName": "PlanCarrera.Domain",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
