@@ -1,6 +1,8 @@
 ﻿using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using PlanCarrera.Business.Services;
 using PlanCarrera.DataAccess;
+using PlanCarrera.DataAccess.Repositories;
 using StackExchange.Redis;
 
 namespace PlanCarrera.WebApi
@@ -29,9 +31,22 @@ namespace PlanCarrera.WebApi
             //Crea una base de datos en redis y Añade el datacontext desde el startup
             services.AddScoped(sp => new DataContext(redis.GetDatabase()));
 
-
-            // Añade los servicios y controladores al contenedor de servicios.
+            // Añade los servicios, repositorios y controladores al contenedor de servicios.
             services.AddControllers();
+            services.AddScoped<IPersonaRepository, PersonaRepository>();
+            services.AddScoped<IPersonaService, PersonaService>();
+
+            // Añade los allows para la policy de cors
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder => {
+                        builder.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+                    }
+                );
+            });
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddEndpointsApiExplorer();
@@ -40,12 +55,14 @@ namespace PlanCarrera.WebApi
             var builder = new ContainerBuilder();
 
             builder.Populate(services);
+
             IContainer ApplicationContainer = builder.Build();
+
 
             return new AutofacServiceProvider(ApplicationContainer);
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DataContext dataContext)
         {
             // Configure the HTTP request pipeline.
             if (env.IsDevelopment())
@@ -54,15 +71,20 @@ namespace PlanCarrera.WebApi
                 app.UseSwaggerUI();
             }
 
+            app.UseRouting();
+            app.UseCors();
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
+            app.UseAuthentication();
+            app.UseStatusCodePages();
+            dataContext.CrearPersonas();
 
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapControllers();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
 
-            //});
+            });
+
         }
     }
 }

@@ -15,7 +15,7 @@ namespace PlanCarrera.DataAccess
     {
         public DbSet<Persona> Persona { get; set; }
 
-        private IDatabase _db { get; set; }
+        public IDatabase _db { get; set; }
         public DataContext(IDatabase db)
         {
             _db = db;
@@ -23,9 +23,8 @@ namespace PlanCarrera.DataAccess
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
-            CrearPersonas();
             // Configura las entidades
+            base.OnModelCreating(modelBuilder);
         }
 
         public void CrearPersonas() 
@@ -43,7 +42,11 @@ namespace PlanCarrera.DataAccess
             var jsonString = JsonConvert.SerializeObject(personas);
 
             // Almacena la cadena JSON en Redis siempre y cuando no exista
-            _db.StringSet("Personas", jsonString, when: When.NotExists);
+            var redisValue = _db.StringGet("Personas");
+            if (redisValue.IsNullOrEmpty)
+            {
+                _db.StringSet("Personas", jsonString);
+            }
         }
     }
 }
