@@ -36,6 +36,7 @@ namespace PlanCarrera.DataAccess
                 new Persona(){ Id = 3, Nombre = "Jade Classius", Edad = 24, DNI = "42456989", Sexo = "Femenino" },
                 new Persona(){ Id = 4, Nombre = "Emily Blunt", Edad = 27, DNI = "42452989", Sexo = "Femenino" },
                 new Persona(){ Id = 5, Nombre = "Alex Mount", Edad = 18, DNI = "42789689", Sexo = "Femenino" },
+                new Persona(){ Id = 6, Nombre = "Amanda Da Silva", Edad = 24, DNI = "95909608", Sexo = "Femenino" },
             };
 
             // Convertir el array de objetos JSON a una cadena JSON
