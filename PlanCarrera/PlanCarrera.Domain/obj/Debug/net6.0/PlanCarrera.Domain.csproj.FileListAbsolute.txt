@@ -1,0 +1,12 @@
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Domain\bin\Debug\net6.0\PlanCarrera.Domain.deps.json
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Domain\bin\Debug\net6.0\PlanCarrera.Domain.dll
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Domain\bin\Debug\net6.0\ref\PlanCarrera.Domain.dll
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Domain\bin\Debug\net6.0\PlanCarrera.Domain.pdb
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Domain\obj\Debug\net6.0\PlanCarrera.Domain.csproj.AssemblyReference.cache
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Domain\obj\Debug\net6.0\PlanCarrera.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Domain\obj\Debug\net6.0\PlanCarrera.Domain.AssemblyInfoInputs.cache
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Domain\obj\Debug\net6.0\PlanCarrera.Domain.AssemblyInfo.cs
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Domain\obj\Debug\net6.0\PlanCarrera.Domain.csproj.CoreCompileInputs.cache
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Domain\obj\Debug\net6.0\PlanCarrera.Domain.dll
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Domain\obj\Debug\net6.0\ref\PlanCarrera.Domain.dll
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Domain\obj\Debug\net6.0\PlanCarrera.Domain.pdb

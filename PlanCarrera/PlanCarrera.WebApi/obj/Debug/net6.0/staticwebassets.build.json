@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wBbyxBTwOHmm6kNI2sY1SMaxuJSzlM9mjHithMbkeys=",
+  "Source": "PlanCarrera.WebApi",
+  "BasePath": "_content/PlanCarrera.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

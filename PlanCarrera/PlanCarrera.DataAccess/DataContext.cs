@@ -27,7 +27,7 @@ namespace PlanCarrera.DataAccess
             base.OnModelCreating(modelBuilder);
         }
 
-        public void CrearPersonas() 
+        public void Seed() 
         {
             var personas = new List<Persona>()
             {

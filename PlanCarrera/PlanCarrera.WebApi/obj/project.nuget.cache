@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zdwb/Q2HvFp9Nw8YsiJDOOkGIFk7WrR8Juo0oMoWmBsWWVA2s+aKoxcawq/5stTHGT6STwZHNQqUnqEs+ZpVKA==",
+  "dgSpecHash": "QaDO8KxZdPcwdLiAyOA+S2dpg2+AvHgsE9XR4kFF9MyHKBRt9VPrnAOiTgPcEMcuVV0p53HHwnk2V04vWs5V9g==",
   "success": true,
   "projectFilePath": "C:\\Users\\SHIFTA-0138\\Desktop\\Plan de carrera\\PlanCarrera_Back\\PlanCarrera\\PlanCarrera.WebApi\\PlanCarrera.WebApi.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.2\\pipelines.sockets.unofficial.2.2.2.nupkg.sha512",
+    "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
     "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\stackexchange.redis\\2.6.104\\stackexchange.redis.2.6.104.nupkg.sha512",
     "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
@@ -29,7 +30,9 @@
     "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
-    "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\SHIFTA-0138\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }

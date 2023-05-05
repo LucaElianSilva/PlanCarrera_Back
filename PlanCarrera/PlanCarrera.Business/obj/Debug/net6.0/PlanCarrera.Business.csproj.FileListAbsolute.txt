@@ -1,0 +1,17 @@
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\bin\Debug\net6.0\PlanCarrera.Business.deps.json
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\bin\Debug\net6.0\PlanCarrera.Business.dll
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\bin\Debug\net6.0\ref\PlanCarrera.Business.dll
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\bin\Debug\net6.0\PlanCarrera.Business.pdb
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\bin\Debug\net6.0\PlanCarrera.DataAccess.dll
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\bin\Debug\net6.0\PlanCarrera.Domain.dll
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\bin\Debug\net6.0\PlanCarrera.DataAccess.pdb
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\bin\Debug\net6.0\PlanCarrera.Domain.pdb
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\obj\Debug\net6.0\PlanCarrera.Business.csproj.AssemblyReference.cache
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\obj\Debug\net6.0\PlanCarrera.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\obj\Debug\net6.0\PlanCarrera.Business.AssemblyInfoInputs.cache
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\obj\Debug\net6.0\PlanCarrera.Business.AssemblyInfo.cs
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\obj\Debug\net6.0\PlanCarrera.Business.csproj.CoreCompileInputs.cache
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\obj\Debug\net6.0\PlanCarrera.Business.csproj.CopyComplete
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\obj\Debug\net6.0\PlanCarrera.Business.dll
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\obj\Debug\net6.0\ref\PlanCarrera.Business.dll
+C:\Users\SHIFTA-0138\Desktop\Plan de carrera\PlanCarrera_Back\PlanCarrera\PlanCarrera.Business\obj\Debug\net6.0\PlanCarrera.Business.pdb

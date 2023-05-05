@@ -1,4 +1,5 @@
 ﻿using PlanCarrera.Business.DTOs;
+using PlanCarrera.Business.Mappers;
 using PlanCarrera.DataAccess.Repositories;
 using System;
 using System.Collections.Generic;
@@ -16,29 +17,18 @@ namespace PlanCarrera.Business.Services
     public class PersonaService: IPersonaService
     {
         private readonly IPersonaRepository Repository;
+        private PersonaDTOMapper _mapper;
 
         public PersonaService(IPersonaRepository personaRepository) 
         {
             Repository = personaRepository;
+            _mapper = new PersonaDTOMapper();  
         }
 
         public List<PersonaDTO> List() 
         {
-            var list = new List<PersonaDTO>();
             var personas = Repository.GetAll();
-
-            foreach (var persona in personas) 
-            {
-                var personaDTO = new PersonaDTO();
-                personaDTO.Id = persona.Id;
-                personaDTO.Nombre = persona.Nombre;
-                personaDTO.Edad = persona.Edad;
-                personaDTO.DNI = persona.DNI;
-                personaDTO.Sexo = persona.Sexo;
-
-                list.Add(personaDTO);
-            }
-            return  list;
+            return  _mapper.MapToListDTO(personas);
         }
     }
 }

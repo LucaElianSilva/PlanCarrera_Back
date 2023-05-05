@@ -77,7 +77,7 @@ namespace PlanCarrera.WebApi
             app.UseAuthorization();
             app.UseAuthentication();
             app.UseStatusCodePages();
-            dataContext.CrearPersonas();
+            dataContext.Seed();
 
             app.UseEndpoints(endpoints =>
             {
